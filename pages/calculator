@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>툴박스 - 게임 가이드북</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>툴박스</h1>
+            <nav>
+                <a href="../index.html">홈으로</a>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="toolbox-grid">
+                <div class="tool-card">
+                    <h3>단위 계산기</h3>
+                    <button onclick="openCalculator('unit')">사용하기</button>
+                </div>
+                <div class="tool-card">
+                    <h3>연맹대전 계산기</h3>
+                    <button onclick="openCalculator('alliance')">사용하기</button>
+                </div>
+                <div class="tool-card">
+                    <h3>군비 보상 계산기</h3>
+                    <button onclick="openCalculator('reward')">사용하기</button>
+                </div>
+                <div class="tool-card">
+                    <h3>영웅 경험치 계산기</h3>
+                    <button onclick="openCalculator('hero-exp')">사용하기</button>
+                </div>
+                <div class="tool-card">
+                    <h3>영웅 장비 계산기</h3>
+                    <button onclick="openCalculator('hero-equipment')">사용하기</button>
+                </div>
+                <div class="tool-card">
+                    <h3>스킬 강화 계산기</h3>
+                    <button onclick="openCalculator('skill')">사용하기</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="../js/calculator.js"></script>
+</body>
+</html>
